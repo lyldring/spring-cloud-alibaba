@@ -1,0 +1,11 @@
+server:
+  port: 18801
+
+spring:
+  application:
+    name: stock_server
+  cloud:
+    nacos:
+      server-addr: 47.106.204.188:8848
+      discovery:
+        namespace: public
