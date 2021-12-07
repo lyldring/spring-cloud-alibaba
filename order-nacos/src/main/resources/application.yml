@@ -1,0 +1,11 @@
+server:
+  port: 18802
+
+spring:
+  application:
+    name: order_server
+  cloud:
+    nacos:
+      server-addr: 47.106.204.188:8848
+      discovery:
+        namespace: public
