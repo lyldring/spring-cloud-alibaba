@@ -7,18 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="order-nacos" />
+        <module name="lyl-cloud-commons" />
+        <module name="lyl-cloud-redis" />
         <module name="stock-nacos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloudalibaba" target="1.8" />
+      <module name="lyl-cloud-commons" target="1.8" />
+      <module name="lyl-cloud-redis" target="1.8" />
+      <module name="lyl-cloud-starter" target="1.8" />
       <module name="order-nacos" target="1.8" />
       <module name="stock-nacos" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cloudalibaba" options="-parameters" />
+      <module name="cloudalibaba" options="" />
+      <module name="lyl-cloud-commons" options="-parameters" />
+      <module name="lyl-cloud-redis" options="-parameters" />
+      <module name="lyl-cloud-starter" options="-parameters" />
       <module name="order-nacos" options="-parameters" />
       <module name="stock-nacos" options="-parameters" />
     </option>

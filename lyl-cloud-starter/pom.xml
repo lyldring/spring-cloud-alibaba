@@ -7,23 +7,17 @@
         <groupId>com.cloud</groupId>
         <version>1.0.0</version>
     </parent>
+    <version>1.0.0</version>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <artifactId>lyl-cloud-starter</artifactId>
+    <name>lyl-cloud-starters</name>
+    <description>lyl-cloud-starters</description>
 
-    <artifactId>stock-nacos</artifactId>
-
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
-
-    </dependencies>
-
-
+    <modules>
+        <module>lyl-cloud-commons</module>
+        <module>lyl-cloud-redis</module>
+        <module>order-nacos</module>
+        <module>stock-nacos</module>
+    </modules>
 </project>
