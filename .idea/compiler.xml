@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="order-nacos" />
         <module name="lyl-cloud-commons" />
-        <module name="lyl-cloud-redis" />
         <module name="stock-nacos" />
+        <module name="lyl-cloud-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,7 +26,7 @@
       <module name="cloudalibaba" options="" />
       <module name="lyl-cloud-commons" options="-parameters" />
       <module name="lyl-cloud-redis" options="-parameters" />
-      <module name="lyl-cloud-starter" options="-parameters" />
+      <module name="lyl-cloud-starter" options="" />
       <module name="order-nacos" options="-parameters" />
       <module name="stock-nacos" options="-parameters" />
     </option>
