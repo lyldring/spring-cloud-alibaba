@@ -1,2 +1,3 @@
 # spring-cloud-alibaba
-springcloudalibab
+#springcloudalibab
+#clean install -DskipTests -Dmaven.javadoc.skip=true
